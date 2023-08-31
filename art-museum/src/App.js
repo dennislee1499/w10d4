@@ -5,7 +5,7 @@ import GalleryNavigation from "./Components/GalleryNavigation";
 function App() {
   const galleries = harvardArt.records
   return (
-        <GalleryNavigation galleries = {galleries}/>
+        <GalleryNavigation galleries = {galleries} />
   );
 }
 
